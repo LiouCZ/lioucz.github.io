@@ -1,8 +1,6 @@
 <!-- _navbar.md -->
 <!-- _navbar.md -->
 
-* [:us:, :uk:](/)
-* [:cn:](/zh-cn/)
 * 入门
 
   * [快速开始](zh-cn/quickstart.md)

@@ -1,23 +1,23 @@
 <!-- _coverpage.md -->
 
-![logo](_media/icon.svg)
+![logo](_media/logo.png)
 
-# docsify <small>3.5</small>
+# Loveling <sub><small>@</small></sub>
 
-> 一个神奇的文档网站生成器。
+> 一个程序员的救赎之路。
 
-- 简单、轻便 (压缩后 ~21kB)
-- 无需生成 html 文件
-- 众多主题
+- 上班
+- 加班
+- 加班
 
-[GitHub](https://https://lioucz.github.io/)
-[Get Started](#docsify)
+[GitHub](https://github.com/LiouCZ)
+[Get Started](#)
 
 
 <!-- 背景图片 -->
 
-![](_media/bg.png)
+<!-- ![](_media/bg.png) -->
 
 <!-- 背景色 -->
 
-![color](#f0f0f0)
+<!-- ![color](#f0f0f0) -->
