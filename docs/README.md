@@ -2,10 +2,10 @@
 
 > An Loveling project.
 - 👋 Hi, I’m @LiouCZ
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+- 👀 I’m interested in Alina
+- 🌱 I’m currently learning Alina
+- 💞️ I’m looking to collaborate on Alina
+- 📫 How to reach me Alina
 
  <!-- 不蒜子统计 -->
  <hr/>
