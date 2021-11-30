@@ -1,7 +1,10 @@
 <!-- docs/_sidebar.md -->
 
-* [首页](/)
-* [AI](/ai "AI 深度学习 deep learning")
+
+- 首页 
+	- [简介](/)
+- [AI](/ai/readme.md)
+  - [深度学习编译器](/ai/1.md "AI 深度学习 deep learning")
 * [Bigdata](/bigdata "")
 * [GO语言](/go "The greatest guide in the world")
 * [Java](/Java "The greatest guide in the world")
