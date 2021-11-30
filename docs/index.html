@@ -43,7 +43,7 @@
       loadNavbar: true,//导航栏
       subMaxLevel: 2,
       maxLevel: 4,      //可配置最大支持渲染的标题层级
-      //disqus: 'shortname',
+      // disqus: 'shortname',
 
       alias: {
       '/.*/_sidebar.md': '/_sidebar.md'
@@ -57,7 +57,7 @@
 	  search: {
 		  paths: 'auto',
 		  placeholder: '  🔍  搜索试试',
-		  noData: '没有结果',
+		  noData: '😒 没有结果',
 		  depth: 6,
 		},
 	  pagination: {
@@ -65,7 +65,7 @@
 		  nextText: '下一章节',
 		},
 		footer: {
-        copy: '<span><a href="https://github.com/LiouCZ">Loveling</a> &copy;2021.</span>',
+        copy: '<span><a href="https://github.com/LiouCZ">Loveling</a> &copy;2021 Proudly published with.</span><br/><div align="center"><span id="busuanzi_container_site_pv" >本站总访问量<span id="busuanzi_value_site_pv"></span>次</span><span>|</span><span id="busuanzi_container_site_uv" style="display:none">本站访客数<span id="busuanzi_value_site_uv"></span>人</span></div>',
         auth: ' <strong></strong>',
         // pre: '<hr/>',
         style: 'text-align: center;',
@@ -82,26 +82,11 @@
        plugins: [
     // DocsifyCodefund.create('xxxx-xxx-xxx'), // change to your codefund id
     function(hook, vm) {
+    
       hook.beforeEach(function(html) {
         return html + '\n' + '<br/>⏰ 更新于： {docsify-updated}';
       });
 
-      // hook.doneEach(function() {
-      //   var label, domObj, main, divEle, gitalk;
-      //   label = vm.route.path.split('/').pop();
-      //   domObj = Docsify.dom;
-      //   main = domObj.getNode('#main');
-      //   Array.apply(null, document.querySelectorAll('div.gitalk-container')).forEach(function(ele) {
-      //     ele.remove();
-      //   });
-      //   divEle = domObj.create('div');
-      //   divEle.id = 'gitalk-container-' + label;
-      //   divEle.className = 'gitalk-container';
-      //   divEle.style = 'width: ' + main.clientWidth + 'px; margin: 0 auto 20px;';
-      //   domObj.appendTo(domObj.find('.content'), divEle);
-      //   gitalk = new Gitalk(Object.assign(gitalkConfig, { id: !label ? 'home' : label }));
-      //   gitalk.render('gitalk-container-' + label);
-      // });
     }
   ]
     }
@@ -130,7 +115,6 @@
   <!-- <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/disqus.min.js"></script> -->
   <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
   <script src="//unpkg.com/docsify-count/dist/countable.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
 
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
 <script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
@@ -142,6 +126,7 @@
 		  language: 'zh-CN',
 		  repo: 'lioucz.github.io',
 		  owner: 'LiouCZ',
+		  // labels: 'Loveling Wiki'
 		  // githubID: '\x78\x66\x6c\x69\x68\x61\x69\x62\x6f',
 		  // id: location['\x70\x61\x74\x68\x6e\x61\x6d\x65'],
 		  id: md5(location.href),
@@ -173,7 +158,8 @@
       navigator.serviceWorker.register('sw.js')
     }
   </script>
-  
+   <!-- 访问量统计 -->
+  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
             
 
   <!-- 置顶插件 -->
@@ -185,21 +171,22 @@
 
   <!-- Markdown 引用样式美化 -->
   <script src="//cdn.jsdelivr.net/npm/docsify-plugin-flexible-alerts/dist/docsify-plugin-flexible-alerts.min.js"></script>
- <!-- 访问量统计 -->
-  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+  
   <!-- C++、Java、python、bash等等语法高亮 -->
   <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-bash.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-java.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-json.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-go.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-python.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-cpp.min.js"></script>
+  <!-- <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-cpp.min.js"></script> -->
   <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-c.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-javascript.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-css.min.js"></script>
+  <!-- <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-javascript.min.js"></script> -->
+  <!-- <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-css.min.js"></script> -->
   <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-powershell.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-sql.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-yaml.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-properties.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/prismjs/components/matlab.min.js"></script>
+  <!-- <script src="//cdn.jsdelivr.net/npm/prismjs/components/matlab.min.js"></script> -->
 
 </body>
  

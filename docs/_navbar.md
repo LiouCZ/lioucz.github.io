@@ -1,17 +1,9 @@
 <!-- _navbar.md -->
 <!-- _navbar.md -->
 
-* 入门
-
-  * [快速开始](zh-cn/quickstart.md)
-  * [多页文档](zh-cn/more-pages.md)
-  * [定制导航栏](zh-cn/custom-navbar.md)
-  * [封面](zh-cn/cover.md)
-
-
-* 配置
-  * [配置项](zh-cn/configuration.md)
-  * [主题](zh-cn/themes.md)
-  * [使用插件](zh-cn/plugins.md)
-  * [Markdown 配置](zh-cn/markdown.md)
-  * [代码高亮](zh-cn/language-highlight.md)
+-   [开发规范](/standard/)
+-   [前端汇总](/web/)
+-   [工具集合](/tool/)
+-   [进阶知识](/advance/)
+-   [关于我们](/about/)
+-   [GitHub](https://github.com/lioucz/docs)
