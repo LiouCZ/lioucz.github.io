@@ -2,7 +2,7 @@
 
 ![logo](_media/logo.png)
 
-# Loveling <sub><small>@</small></sub>
+# Loveling <sup>&copy;</sup>
 
 > 一个程序员的救赎之路。
 
