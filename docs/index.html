@@ -134,15 +134,17 @@
 
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
 <script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
+<script src="style/md5.min.js"></script>
 <script>
 	const gitalk = new Gitalk({
 		  clientID: '1bf95b6fdab699884c92',
 		  clientSecret: '2ddafbe038fa02fb319a4e37f5db5459e01f434a',
-		  language: 'zh_cn',
+		  // language: 'zh-CN',
 		  repo: 'lioucz.github.io',
 		  owner: 'LiouCZ',
 		  // githubID: '\x78\x66\x6c\x69\x68\x61\x69\x62\x6f',
 		  // id: location['\x70\x61\x74\x68\x6e\x61\x6d\x65'],
+		  id: md5(location.href),
 		  perPage: 20,
 		  admin: ['LiouCZ'],
 		  distractionFreeMode: false
