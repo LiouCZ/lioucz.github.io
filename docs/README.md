@@ -5,7 +5,7 @@
 - 👀 I’m interested in Alina
 - 🌱 I’m currently learning Alina
 - 💞️ I’m looking to collaborate on Alina
-- 📫 How to reach me Alina
+- 📫 How to reach my Alina
 
  <!-- 不蒜子统计 -->
  <hr/>
